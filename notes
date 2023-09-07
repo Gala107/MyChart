@@ -1,8 +1,0 @@
-
-https://www.linkedin.com/in/nguyenlevo linkedin for Nguyen Vo
-
-what -u option does in git push -u origin main command?
-
--u is upstream
-After you’ve set up your origin
-What the flag -u does is let GitHub knows our local main should map to remote main
