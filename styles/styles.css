@@ -1,8 +1,9 @@
 details {
     border: 1px solid #ccc;
     border-radius: 4px;
-    padding: 5px;
+    padding: 20px;
     margin-bottom: 10px;
+    width: 800px;
 }
 
 summary {
@@ -31,7 +32,7 @@ label {
 
 h1 {
     color: rgb(71, 80, 88);
-    text-align: center;
+    margin-left: 330px;
 }
 
 option {
@@ -41,7 +42,7 @@ option {
 input,
 select {
     padding: 5px;
-    margin: 5px;
+    margin: 5px 5px 5px 0px;
     border: 1px solid #ccc;
     color: rgb(71, 80, 88);
     outline: none;
@@ -50,42 +51,13 @@ select {
 label textarea {
     vertical-align: top;
     margin-top: 5px;
-    margin-left: 10px;
     border: 1px solid #ccc;
     color: rgb(71, 80, 88);
     outline: none;
 }
 
 .submitDiv {
-    text-align: center;
-}
-
-.clientExtrapad {
-    padding-left: 7px;
-}
-
-.cityExtrapad {
-    padding-left: 65px;
-}
-
-.phoneExtrapad {
-    padding-left: 52px;
-}
-
-.dateExtrapad {
-    padding-left: 85px;
-}
-
-.stateExtrapad {
-    padding-left: 60px;
-}
-
-.trExtrapad {
-    padding-top: 100;
-}
-
-.noteExtrapad {
-    padding-left: 85px;
+    margin-left: 390px;
 }
 
 #submit {
