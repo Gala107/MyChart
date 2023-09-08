@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Meeting</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <h1>Schedule Meeting</h1><br>
+    <form action="" method="get">
+        <details>
+            <summary>Meeting Details</summary>
+            <table>
+                <tr>
+                    <td>
+                        <label for="firstName">Client First Name</label>
+                        <input type="text" id="firstName" size="30" required>
+                    </td>
+                    <td>
+                        <label for="lastName">Client Last Name</label>
+                        <input type="text" id="lastName" size="30" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="dateExtrapad" for="meetingDate">Date</label>
+                        <input id="meetingDate" type="date">
+                    </td>
+                    <td>
+                        <label for="meetingTime">Time</label>
+                        <input id="meetingTime" type="dateTime">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2">
+                        <div>
+                            <label class="noteExtrapad" for="note">Note
+                                <textarea id="note" cols="55" rows="5"></textarea>
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </details>
+        <br>
+        <div class="submitDiv">
+            <input id="submit" type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
